@@ -1,16 +1,17 @@
 
 // import './App.css';
-import UseStateCounter from './usestate/UseStateCounter';
 
+import { Container } from "react-bootstrap";
+import Header from "./components/Header";
 
 function App() {
    
   
   return (
    
-   <div className="App">
-<UseStateCounter/>
-   </div>
+   <Container>
+  <Header/>
+   </Container>
 
   );
 }
